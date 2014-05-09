@@ -1,0 +1,11 @@
+Source: dnw2
+Section: unknown
+Priority: optional
+Maintainer: chenzilin <chenzilin115@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: dnw2
+Architecture: any
+Depends: libusb-dev, ${shlibs:Depends}, ${misc:Depends}
+Description: A tool to download something to Arm/EmbeddedSystem under Linux
